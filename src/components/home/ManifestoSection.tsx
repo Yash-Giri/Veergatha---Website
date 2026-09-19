@@ -9,7 +9,7 @@ export default function ManifestoSection() {
 
   useEffect(() => {
     const img = new Image();
-    img.src = '/images/heritage/gupta/hero-knowledge-astronomy-coinage.jpg';
+    img.src = '/images/heritage/gupta/hero-knowledge-astronomy-coinage.svg';
 
     img.onload = () => {
       setImageLoaded(true);
@@ -27,7 +27,7 @@ export default function ManifestoSection() {
         <div
           className="absolute inset-0 opacity-10 bg-cover bg-center pointer-events-none mix-blend-overlay"
           style={{
-            backgroundImage: `url('/images/heritage/gupta/hero-knowledge-astronomy-coinage.jpg')`,
+            backgroundImage: `url('/images/heritage/gupta/hero-knowledge-astronomy-coinage.svg')`,
           }}
           aria-hidden="true"
         />

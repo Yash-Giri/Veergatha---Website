@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+  <stop stop-color="#151311"/>
+  <stop offset=".55" stop-color="#A07832"/>
+  <stop offset="1" stop-color="#E8D5B5"/>
+ </linearGradient>
+ <radialGradient id="sun">
+  <stop stop-color="#FFF0B8" stop-opacity=".8"/>
+  <stop offset="1" stop-color="#FFF0B8" stop-opacity="0"/>
+ </radialGradient>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<circle cx="1230" cy="230" r="330" fill="url(#sun)"/>
+<path d="M0 720 Q250 500 500 670 T1000 630 T1600 700 V900 H0Z" fill="#0D0C0A" opacity=".72"/>
+<g fill="none" stroke="#E7C875" stroke-width="4" opacity=".6">
+ <circle cx="800" cy="445" r="190"/>
+ <circle cx="800" cy="445" r="125"/>
+ <path d="M610 445h380M800 255v380"/>
+</g>
+<g fill="#E7C875" opacity=".65">
+ <circle cx="800" cy="445" r="10"/>
+ <circle cx="610" cy="445" r="7"/>
+ <circle cx="990" cy="445" r="7"/>
+</g>
+<text x="100" y="120" fill="#F3DFA8" font-family="Georgia,serif" font-size="30" letter-spacing="8">VEERGATHA · HERITAGE DISCOVERY</text>
+<text x="100" y="650" fill="#FFF8E8" font-family="Georgia,serif" font-size="90" letter-spacing="4">RAJPUTANA</text>
+<text x="105" y="715" fill="#F3DFA8" font-family="Arial,sans-serif" font-size="29" letter-spacing="7">HONOUR ETERNAL</text>
+<text x="105" y="770" fill="#FFF8E8" font-family="Georgia,serif" font-size="28" font-style="italic">A LEGACY OF VALOUR</text>
+</svg>

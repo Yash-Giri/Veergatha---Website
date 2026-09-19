@@ -14,7 +14,7 @@ export const HERITAGE_WORLDS: Record<string, HeritageWorld> = {
     accentHex: '#B07D33',
     accentBg: '#FBF6EE',
     accentBorder: '#E3C89C',
-    heroImage: '/images/heritage/chola/hero-oceanic-maritime-network-chola.jpg',
+    heroImage: '/images/heritage/chola/hero-oceanic-maritime-network-chola.svg',
     editorialQuote: 'The Cholas did not merely sail the sea; they chartered sovereign trade corridors across the Strait of Malacca, uniting peninsular India with Southeast Asian realms through trade, art, and statecraft.',
     dimensions: [
       {
@@ -100,7 +100,7 @@ export const HERITAGE_WORLDS: Record<string, HeritageWorld> = {
         tagline: 'Archival stone-lithograph print',
         description: 'Archival cotton paper lithograph tracing 11th-century monsoon trade corridors and merchant guild navigational stars across the Indian Ocean.',
         conceptualMedium: 'Screenprinted on 310gsm Hahnemühle cotton rag',
-        imageUrl: '/images/heritage/chola/concept-oceanic-trade-routes-map-chola.jpg',
+        imageUrl: '/images/heritage/chola/concept-oceanic-trade-routes-map-chola.svg',
         colorHex: '#B07D33'
       },
       {
@@ -112,7 +112,7 @@ export const HERITAGE_WORLDS: Record<string, HeritageWorld> = {
         tagline: 'Lost-wax bronze casting',
         description: 'A pocket-sized bronze casting honoring the transparent democratic voting inscriptions of 10th-century Uttaramerur.',
         conceptualMedium: 'Cold-cast bell metal bronze with antique patina',
-        imageUrl: '/images/heritage/chola/concept-uttaramerur-democracy-token-chola.jpg',
+        imageUrl: '/images/heritage/chola/concept-uttaramerur-democracy-token-chola.svg',
         colorHex: '#82581A'
       },
       {
@@ -124,7 +124,7 @@ export const HERITAGE_WORLDS: Record<string, HeritageWorld> = {
         tagline: 'Hand-carved architectural stone',
         description: 'Solid grey granite carved to reflect the octagonal geometry of the Thanjavur Vimana capstone.',
         conceptualMedium: 'Honed Indian Black & Grey Granite',
-        imageUrl: '/images/heritage/chola/concept-brihadisvara-capstone-paperweight-chola.jpg',
+        imageUrl: '/images/heritage/chola/concept-brihadisvara-capstone-paperweight-chola.svg',
         colorHex: '#B07D33'
       }
     ],
@@ -157,7 +157,7 @@ export const HERITAGE_WORLDS: Record<string, HeritageWorld> = {
     accentHex: '#D97706',
     accentBg: '#FEF8EE',
     accentBorder: '#F6CD96',
-    heroImage: '/images/heritage/maratha/hero-sahyadri-fort-network-maratha.jpg',
+    heroImage: '/images/heritage/maratha/hero-sahyadri-fort-network-maratha.svg',
     editorialQuote: 'Shivaji understood that sovereignty did not live in royal courts alone; it resided in basalt hillforts, agrarian discipline, and a fleet that safeguarded the Konkan coastline from imperial dominance.',
     dimensions: [
       {
@@ -236,7 +236,7 @@ export const HERITAGE_WORLDS: Record<string, HeritageWorld> = {
         tagline: 'Dyed canvas field jacket',
         description: 'Structured unbleached cotton twill jacket featuring contour line cartography of the Raigad escarpment stitched into interior yoke.',
         conceptualMedium: '14oz organic cotton canvas, vegetable dye wash',
-        imageUrl: '/images/heritage/maratha/concept-sahyadri-contour-overshirt-maratha.jpg',
+        imageUrl: '/images/heritage/maratha/concept-sahyadri-contour-overshirt-maratha.svg',
         colorHex: '#D97706'
       },
       {
@@ -248,7 +248,7 @@ export const HERITAGE_WORLDS: Record<string, HeritageWorld> = {
         tagline: 'Archival boxed folio set',
         description: 'Eight illustrated informational cards exploring the responsibilities, edicts, and fiscal balance of Shivaji’s premier council.',
         conceptualMedium: 'Letterpress on antique board with linen slipcase',
-        imageUrl: '/images/heritage/maratha/concept-ashta-pradhan-strategy-cards-maratha.jpg',
+        imageUrl: '/images/heritage/maratha/concept-ashta-pradhan-strategy-cards-maratha.svg',
         colorHex: '#A15303'
       },
       {
@@ -260,7 +260,7 @@ export const HERITAGE_WORLDS: Record<string, HeritageWorld> = {
         tagline: 'Hand-finished brass paperweight',
         description: 'Solid raw brass faceted paperweight replicating the five-sided marine bastions of the Sindhudurg island fortress.',
         conceptualMedium: 'Machined & sand-cast naval brass',
-        imageUrl: '/images/heritage/maratha/concept-sindhudurg-bastion-seal-maratha.jpg',
+        imageUrl: '/images/heritage/maratha/concept-sindhudurg-bastion-seal-maratha.svg',
         colorHex: '#D97706'
       }
     ],
@@ -293,7 +293,7 @@ export const HERITAGE_WORLDS: Record<string, HeritageWorld> = {
     accentHex: '#C15332',
     accentBg: '#FDF4F0',
     accentBorder: '#E8B6A7',
-    heroImage: '/images/heritage/rajputana/hero-mewar-fortress-rajputana.jpg',
+    heroImage: '/images/heritage/rajputana/hero-mewar-fortress-rajputana.svg',
     editorialQuote: 'Rajput architecture was an oath carved into sandstone—fortresses that rose like extensions of natural cliffs, sheltering vibrant ateliers of miniature art, poetry, and civic memory.',
     dimensions: [
       {
@@ -356,7 +356,7 @@ export const HERITAGE_WORLDS: Record<string, HeritageWorld> = {
         tagline: 'Fine art copperplate lithograph',
         description: 'Detailed architectural drawing of the massive thirty-six kilometer perimeter bastion and stepped battlements.',
         conceptualMedium: 'Archival deckle-edge paper print',
-        imageUrl: '/images/heritage/rajputana/concept-kumbhalgarh-fort-elevation-rajputana.jpg',
+        imageUrl: '/images/heritage/rajputana/concept-kumbhalgarh-fort-elevation-rajputana.svg',
         colorHex: '#C15332'
       },
       {
@@ -368,7 +368,7 @@ export const HERITAGE_WORLDS: Record<string, HeritageWorld> = {
         tagline: 'Handloom linen silhouette',
         description: 'Breathable desert-sand tone handspun linen shirt with concealed placket and subtle geometric Aravalli fort embroidery.',
         conceptualMedium: '100% Belgian flax linen, natural earth wash',
-        imageUrl: '/images/heritage/rajputana/concept-mewar-linen-work-shirt-rajputana.jpg',
+        imageUrl: '/images/heritage/rajputana/concept-mewar-linen-work-shirt-rajputana.svg',
         colorHex: '#9B391C'
       }
     ],
@@ -401,7 +401,7 @@ export const HERITAGE_WORLDS: Record<string, HeritageWorld> = {
     accentHex: '#2A634B',
     accentBg: '#EEF7F2',
     accentBorder: '#9DCBB5',
-    heroImage: '/images/heritage/ahom/hero-brahmaputra-valley-ahom.jpg',
+    heroImage: '/images/heritage/ahom/hero-brahmaputra-valley-ahom.svg',
     editorialQuote: 'The Ahoms proved that victory against massive armies lay in river currents, earthen ramparts, and an unbending conviction that duty to homeland superseded all personal kinship.',
     dimensions: [
       {
@@ -464,7 +464,7 @@ export const HERITAGE_WORLDS: Record<string, HeritageWorld> = {
         tagline: 'Bound handmade botanical paper notebook',
         description: 'Hardcover journal bound with tea-dyed handloom fabric, containing acid-free bark-textured paper inspired by 16th-century Ahom chronicles.',
         conceptualMedium: 'Botanical paper with natural indigo stitching',
-        imageUrl: '/images/heritage/ahom/concept-buranji-chronicle-journal-ahom.jpg',
+        imageUrl: '/images/heritage/ahom/concept-buranji-chronicle-journal-ahom.svg',
         colorHex: '#2A634B'
       },
       {
@@ -476,7 +476,7 @@ export const HERITAGE_WORLDS: Record<string, HeritageWorld> = {
         tagline: 'Topographical hydro-graphic chart',
         description: 'Detailed cartographic depiction of the Brahmaputra river bend at Saraighat illustrating the 1671 tactical positioning.',
         conceptualMedium: 'Two-color letterpress on archival cotton paper',
-        imageUrl: '/images/heritage/ahom/concept-saraighat-river-navigation-chart-ahom.jpg',
+        imageUrl: '/images/heritage/ahom/concept-saraighat-river-navigation-chart-ahom.svg',
         colorHex: '#1C4533'
       }
     ],
@@ -509,7 +509,7 @@ export const HERITAGE_WORLDS: Record<string, HeritageWorld> = {
     accentHex: '#BFA047',
     accentBg: '#FCF8EE',
     accentBorder: '#E8D499',
-    heroImage: '/images/heritage/gupta/hero-knowledge-empire-gupta.jpg',
+    heroImage: '/images/heritage/gupta/hero-knowledge-empire-gupta.svg',
     editorialQuote: 'The Gupta age demonstrated that civilizational zenith is measured not by conquest alone, but by mathematics, astronomical insight, and art that captures the serene stillness of the inner human spirit.',
     dimensions: [
       {
@@ -572,7 +572,7 @@ export const HERITAGE_WORLDS: Record<string, HeritageWorld> = {
         tagline: 'High-relief commemorative piece',
         description: 'A tactile commemorative medallion casting Samudragupta playing the seven-stringed veena in classical Gupta relief.',
         conceptualMedium: 'Antique brass with brushed gold electroplate',
-        imageUrl: '/images/heritage/gupta/concept-samudragupta-lyrist-medallion-gupta.jpg',
+        imageUrl: '/images/heritage/gupta/concept-samudragupta-lyrist-medallion-gupta.svg',
         colorHex: '#BFA047'
       },
       {
@@ -584,7 +584,7 @@ export const HERITAGE_WORLDS: Record<string, HeritageWorld> = {
         tagline: 'Concertina accordion timeline',
         description: 'Accordion fold-out folio mapping the mathematical constants, sine tables, and planetary models developed in 5th-century Pataliputra.',
         conceptualMedium: 'Letterpress on heavy warm cream paper',
-        imageUrl: '/images/heritage/gupta/concept-aryabhatiya-astronomy-folio-gupta.jpg',
+        imageUrl: '/images/heritage/gupta/concept-aryabhatiya-astronomy-folio-gupta.svg',
         colorHex: '#8B7127'
       }
     ],
@@ -617,7 +617,7 @@ export const HERITAGE_WORLDS: Record<string, HeritageWorld> = {
     accentHex: '#726456',
     accentBg: '#F6F3EF',
     accentBorder: '#C5B9AC',
-    heroImage: '/images/heritage/mauryan/hero-pataliputra-administration-mauryan.jpg',
+    heroImage: '/images/heritage/mauryan/hero-pataliputra-administration-mauryan.svg',
     editorialQuote: 'The Mauryas built the intellectual armature of Indian statecraft—balancing the sharp realpolitik of Kautilya with Ashoka’s unprecedented vision of state authority grounded in moral conscience.',
     dimensions: [
       {
@@ -686,7 +686,7 @@ export const HERITAGE_WORLDS: Record<string, HeritageWorld> = {
         tagline: 'Archival epigraphical print',
         description: 'Crisp facsimile print documenting the Brahmi characters of Major Rock Edict XIII renouncing violence after the Kalinga campaign.',
         conceptualMedium: 'Charcoal relief on unbleached handmade paper',
-        imageUrl: '/images/heritage/mauryan/concept-ashokan-rock-edict-xiii-mauryan.jpg',
+        imageUrl: '/images/heritage/mauryan/concept-ashokan-rock-edict-xiii-mauryan.svg',
         colorHex: '#726456'
       },
       {
@@ -698,7 +698,7 @@ export const HERITAGE_WORLDS: Record<string, HeritageWorld> = {
         tagline: 'Mirror-polished buff sandstone',
         description: 'Smooth rounded desk stone referencing the renowned glass-like polish unique to 3rd-century BCE Mauryan pillar capitals.',
         conceptualMedium: 'Natural Chunar-quarried sandstone',
-        imageUrl: '/images/heritage/mauryan/concept-chunar-sandstone-desk-weight-mauryan.jpg',
+        imageUrl: '/images/heritage/mauryan/concept-chunar-sandstone-desk-weight-mauryan.svg',
         colorHex: '#4F4439'
       }
     ],

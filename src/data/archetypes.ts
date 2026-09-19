@@ -11,7 +11,7 @@ export const ARCHETYPES: Archetype[] = [
     pullsFrom: 'Chanakya, Mauryan statecraft, Maratha military intelligence',
     recommendedWorlds: ['mauryan', 'maratha', 'chola'],
     accentColor: '#726456',
-    image: '/images/concepts/display-sample.jpg',
+    image: '/images/concepts/display-sample.svg',
   },
   {
     id: 'warrior',
@@ -23,7 +23,7 @@ export const ARCHETYPES: Archetype[] = [
     pullsFrom: 'Rajput, Ahom and Maratha resistance histories',
     recommendedWorlds: ['maratha', 'rajputana', 'ahom'],
     accentColor: '#C15332',
-    image: '/images/concepts/collect-sample.jpg',
+    image: '/images/concepts/collect-sample.svg',
   },
   {
     id: 'explorer',
@@ -35,7 +35,7 @@ export const ARCHETYPES: Archetype[] = [
     pullsFrom: 'Chola maritime history, Indian Ocean networks',
     recommendedWorlds: ['chola'],
     accentColor: '#B07D33',
-    image: '/images/concepts/explore-sample.jpg',
+    image: '/images/concepts/explore-sample.svg',
   },
   {
     id: 'builder',
@@ -47,7 +47,7 @@ export const ARCHETYPES: Archetype[] = [
     pullsFrom: 'Mauryas, Guptas, regional kingdoms',
     recommendedWorlds: ['chola', 'mauryan', 'gupta', 'rajputana'],
     accentColor: '#4F4439',
-    image: '/images/concepts/desk-sample.jpg',
+    image: '/images/concepts/desk-sample.svg',
   },
   {
     id: 'polymath',
@@ -59,6 +59,6 @@ export const ARCHETYPES: Archetype[] = [
     pullsFrom: 'Samudragupta, intellectual and cultural traditions',
     recommendedWorlds: ['gupta', 'chola', 'rajputana'],
     accentColor: '#BFA047',
-    image: '/images/concepts/wear-sample.jpg',
+    image: '/images/concepts/wear-sample.svg',
   },
 ];

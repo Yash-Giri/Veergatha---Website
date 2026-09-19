@@ -110,19 +110,19 @@ function generateWearConcepts(world: any) {
 
         // Set image URL based on concept type
         if (concept.id.includes('tshirt_premium')) {
-          imageUrl = '/images/heritage/chola/merchandise-premium-tshirt.jpg';
+          imageUrl = '/images/heritage/chola/merchandise-premium-tshirt.svg';
         } else if (concept.id.includes('tshirt_oversized')) {
-          imageUrl = '/images/heritage/chola/merchandise-oversized-tshirt.jpg';
+          imageUrl = '/images/heritage/chola/merchandise-oversized-tshirt.svg';
         } else if (concept.id.includes('embroidered')) {
-          imageUrl = '/images/heritage/chola/merchandise-embroidered-apparel.jpg';
+          imageUrl = '/images/heritage/chola/merchandise-embroidered-apparel.svg';
         } else if (concept.id.includes('sweatshirt')) {
-          imageUrl = '/images/heritage/chola/merchandise-sweatshirt.jpg';
+          imageUrl = '/images/heritage/chola/merchandise-sweatshirt.svg';
         } else if (concept.id.includes('jacket')) {
-          imageUrl = '/images/heritage/chola/merchandise-jacket.jpg';
+          imageUrl = '/images/heritage/chola/merchandise-jacket.svg';
         } else if (concept.id.includes('cap')) {
-          imageUrl = '/images/heritage/chola/merchandise-cap.jpg';
+          imageUrl = '/images/heritage/chola/merchandise-cap.svg';
         } else if (concept.id.includes('tote')) {
-          imageUrl = '/images/heritage/chola/merchandise-tote-bag.jpg';
+          imageUrl = '/images/heritage/chola/merchandise-tote-bag.svg';
         }
         break;
 
@@ -142,19 +142,19 @@ function generateWearConcepts(world: any) {
 
         // Set image URL based on concept type
         if (concept.id.includes('tshirt_premium')) {
-          imageUrl = '/images/heritage/maratha/merchandise-premium-tshirt.jpg';
+          imageUrl = '/images/heritage/maratha/merchandise-premium-tshirt.svg';
         } else if (concept.id.includes('tshirt_oversized')) {
-          imageUrl = '/images/heritage/maratha/merchandise-oversized-tshirt.jpg';
+          imageUrl = '/images/heritage/maratha/merchandise-oversized-tshirt.svg';
         } else if (concept.id.includes('embroidered')) {
-          imageUrl = '/images/heritage/maratha/merchandise-embroidered-apparel.jpg';
+          imageUrl = '/images/heritage/maratha/merchandise-embroidered-apparel.svg';
         } else if (concept.id.includes('sweatshirt')) {
-          imageUrl = '/images/heritage/maratha/merchandise-sweatshirt.jpg';
+          imageUrl = '/images/heritage/maratha/merchandise-sweatshirt.svg';
         } else if (concept.id.includes('jacket')) {
-          imageUrl = '/images/heritage/maratha/merchandise-jacket.jpg';
+          imageUrl = '/images/heritage/maratha/merchandise-jacket.svg';
         } else if (concept.id.includes('cap')) {
-          imageUrl = '/images/heritage/maratha/merchandise-cap.jpg';
+          imageUrl = '/images/heritage/maratha/merchandise-cap.svg';
         } else if (concept.id.includes('tote')) {
-          imageUrl = '/images/heritage/maratha/merchandise-tote-bag.jpg';
+          imageUrl = '/images/heritage/maratha/merchandise-tote-bag.svg';
         }
         break;
 
@@ -174,19 +174,19 @@ function generateWearConcepts(world: any) {
 
         // Set image URL based on concept type
         if (concept.id.includes('tshirt_premium')) {
-          imageUrl = '/images/heritage/rajputana/merchandise-premium-tshirt.jpg';
+          imageUrl = '/images/heritage/rajputana/merchandise-premium-tshirt.svg';
         } else if (concept.id.includes('tshirt_oversized')) {
-          imageUrl = '/images/heritage/rajputana/merchandise-oversized-tshirt.jpg';
+          imageUrl = '/images/heritage/rajputana/merchandise-oversized-tshirt.svg';
         } else if (concept.id.includes('embroidered')) {
-          imageUrl = '/images/heritage/rajputana/merchandise-embroidered-apparel.jpg';
+          imageUrl = '/images/heritage/rajputana/merchandise-embroidered-apparel.svg';
         } else if (concept.id.includes('sweatshirt')) {
-          imageUrl = '/images/heritage/rajputana/merchandise-sweatshirt.jpg';
+          imageUrl = '/images/heritage/rajputana/merchandise-sweatshirt.svg';
         } else if (concept.id.includes('jacket')) {
-          imageUrl = '/images/heritage/rajputana/merchandise-jacket.jpg';
+          imageUrl = '/images/heritage/rajputana/merchandise-jacket.svg';
         } else if (concept.id.includes('cap')) {
-          imageUrl = '/images/heritage/rajputana/merchandise-cap.jpg';
+          imageUrl = '/images/heritage/rajputana/merchandise-cap.svg';
         } else if (concept.id.includes('tote')) {
-          imageUrl = '/images/heritage/rajputana/merchandise-tote-bag.jpg';
+          imageUrl = '/images/heritage/rajputana/merchandise-tote-bag.svg';
         }
         break;
 
@@ -206,19 +206,19 @@ function generateWearConcepts(world: any) {
 
         // Set image URL based on concept type
         if (concept.id.includes('tshirt_premium')) {
-          imageUrl = '/images/heritage/ahom/merchandise-premium-tshirt.jpg';
+          imageUrl = '/images/heritage/ahom/merchandise-premium-tshirt.svg';
         } else if (concept.id.includes('tshirt_oversized')) {
-          imageUrl = '/images/heritage/ahom/merchandise-oversized-tshirt.jpg';
+          imageUrl = '/images/heritage/ahom/merchandise-oversized-tshirt.svg';
         } else if (concept.id.includes('embroidered')) {
-          imageUrl = '/images/heritage/ahom/merchandise-embroidered-apparel.jpg';
+          imageUrl = '/images/heritage/ahom/merchandise-embroidered-apparel.svg';
         } else if (concept.id.includes('sweatshirt')) {
-          imageUrl = '/images/heritage/ahom/merchandise-sweatshirt.jpg';
+          imageUrl = '/images/heritage/ahom/merchandise-sweatshirt.svg';
         } else if (concept.id.includes('jacket')) {
-          imageUrl = '/images/heritage/ahom/merchandise-jacket.jpg';
+          imageUrl = '/images/heritage/ahom/merchandise-jacket.svg';
         } else if (concept.id.includes('cap')) {
-          imageUrl = '/images/heritage/ahom/merchandise-cap.jpg';
+          imageUrl = '/images/heritage/ahom/merchandise-cap.svg';
         } else if (concept.id.includes('tote')) {
-          imageUrl = '/images/heritage/ahom/merchandise-tote-bag.jpg';
+          imageUrl = '/images/heritage/ahom/merchandise-tote-bag.svg';
         }
         break;
 
@@ -238,19 +238,19 @@ function generateWearConcepts(world: any) {
 
         // Set image URL based on concept type
         if (concept.id.includes('tshirt_premium')) {
-          imageUrl = '/images/heritage/gupta/merchandise-premium-tshirt.jpg';
+          imageUrl = '/images/heritage/gupta/merchandise-premium-tshirt.svg';
         } else if (concept.id.includes('tshirt_oversized')) {
-          imageUrl = '/images/heritage/gupta/merchandise-oversized-tshirt.jpg';
+          imageUrl = '/images/heritage/gupta/merchandise-oversized-tshirt.svg';
         } else if (concept.id.includes('embroidered')) {
-          imageUrl = '/images/heritage/gupta/merchandise-embroidered-apparel.jpg';
+          imageUrl = '/images/heritage/gupta/merchandise-embroidered-apparel.svg';
         } else if (concept.id.includes('sweatshirt')) {
-          imageUrl = '/images/heritage/gupta/merchandise-sweatshirt.jpg';
+          imageUrl = '/images/heritage/gupta/merchandise-sweatshirt.svg';
         } else if (concept.id.includes('jacket')) {
-          imageUrl = '/images/heritage/gupta/merchandise-jacket.jpg';
+          imageUrl = '/images/heritage/gupta/merchandise-jacket.svg';
         } else if (concept.id.includes('cap')) {
-          imageUrl = '/images/heritage/gupta/merchandise-cap.jpg';
+          imageUrl = '/images/heritage/gupta/merchandise-cap.svg';
         } else if (concept.id.includes('tote')) {
-          imageUrl = '/images/heritage/gupta/merchandise-tote-bag.jpg';
+          imageUrl = '/images/heritage/gupta/merchandise-tote-bag.svg';
         }
         break;
 
@@ -270,19 +270,19 @@ function generateWearConcepts(world: any) {
 
         // Set image URL based on concept type
         if (concept.id.includes('tshirt_premium')) {
-          imageUrl = '/images/heritage/mauryan/merchandise-premium-tshirt.jpg';
+          imageUrl = '/images/heritage/mauryan/merchandise-premium-tshirt.svg';
         } else if (concept.id.includes('tshirt_oversized')) {
-          imageUrl = '/images/heritage/mauryan/merchandise-oversized-tshirt.jpg';
+          imageUrl = '/images/heritage/mauryan/merchandise-oversized-tshirt.svg';
         } else if (concept.id.includes('embroidered')) {
-          imageUrl = '/images/heritage/mauryan/merchandise-embroidered-apparel.jpg';
+          imageUrl = '/images/heritage/mauryan/merchandise-embroidered-apparel.svg';
         } else if (concept.id.includes('sweatshirt')) {
-          imageUrl = '/images/heritage/mauryan/merchandise-sweatshirt.jpg';
+          imageUrl = '/images/heritage/mauryan/merchandise-sweatshirt.svg';
         } else if (concept.id.includes('jacket')) {
-          imageUrl = '/images/heritage/mauryan/merchandise-jacket.jpg';
+          imageUrl = '/images/heritage/mauryan/merchandise-jacket.svg';
         } else if (concept.id.includes('cap')) {
-          imageUrl = '/images/heritage/mauryan/merchandise-cap.jpg';
+          imageUrl = '/images/heritage/mauryan/merchandise-cap.svg';
         } else if (concept.id.includes('tote')) {
-          imageUrl = '/images/heritage/mauryan/merchandise-tote-bag.jpg';
+          imageUrl = '/images/heritage/mauryan/merchandise-tote-bag.svg';
         }
         break;
 
@@ -300,7 +300,7 @@ function generateWearConcepts(world: any) {
           .replace('[NARRATIVE_SCENE]', 'narrative scenes');
 
         // Set fallback image URL
-        imageUrl = '/images/fallback/merchandise-concept.jpg';
+        imageUrl = '/images/fallback/merchandise-concept.svg';
     }
 
     return {

@@ -28,7 +28,7 @@ export const CONCEPTUAL_EXPRESSIONS: Record<ExpressionCategory, ConceptualExpres
     description: 'Rejecting loud graphic slogans and cheap prints. VEERGATHA conceptualizes garments where heritage is integrated structurally: topographic contour linings, fort-geometry stitchwork, natural indigo and madder dyeing, and heavy unbleached cotton twills.',
     mediums: ['Handspun Khadi Cotton', 'Heavyweight Twill', 'Belgian Flax Linen', 'Vegetable Dyes'],
     examples: ['Topographic Overshirts', 'Monochrome Inscribed T-Shirts', 'Handloom Wool Stoles', 'Structured Field Jackets'],
-    sampleImage: '/images/concepts/wear-conceptual-apparel-india.jpg',
+    sampleImage: '/images/concepts/wear-conceptual-apparel-india.svg',
     conceptualVisuals: [
       {
         title: 'Sahyadri Contour Utility Shirt',
@@ -36,7 +36,7 @@ export const CONCEPTUAL_EXPRESSIONS: Record<ExpressionCategory, ConceptualExpres
         form: 'Relaxed Overshirt',
         materials: '100% Unbleached 320gsm Organic Twill',
         details: 'Subtle topographic elevation lines of Rajgad fort embroidered tone-on-tone on interior chest pocket.',
-        imageUrl: '/images/concepts/wear-sahyadri-contour-utility-shirt.jpg'
+        imageUrl: '/images/concepts/wear-sahyadri-contour-utility-shirt.svg'
       },
       {
         title: 'Kaveri Monsoon Indigo Linen Tunics',
@@ -44,7 +44,7 @@ export const CONCEPTUAL_EXPRESSIONS: Record<ExpressionCategory, ConceptualExpres
         form: 'Minimalist Handloom Tunic',
         materials: 'Natural Indigo-dyed Pure Linen',
         details: 'Constructed using traditional flat-felled seamwork inspired by maritime sailcloth.',
-        imageUrl: '/images/concepts/wear-kaveri-monsoon-indigo-linen-tunics.jpg'
+        imageUrl: '/images/concepts/wear-kaveri-monsoon-indigo-linen-tunics.svg'
       }
     ]
   },
@@ -56,7 +56,7 @@ export const CONCEPTUAL_EXPRESSIONS: Record<ExpressionCategory, ConceptualExpres
     description: 'Transforming ancient epigraphy, naval cartography, architectural elevations, and courtly miniature styles into limited archival art prints produced on museum-grade cotton rag paper.',
     mediums: ['Letterpress', 'Stone Lithography', '310gsm Hahnemühle Cotton Rag', 'Mineral Inks'],
     examples: ['Monochrome Edict Rubbings', 'Naval Passage Charts', 'Temple Elevation Blueprints', 'Miniature Atelier Studies'],
-    sampleImage: '/images/concepts/display-conceptual-art-print-india.jpg',
+    sampleImage: '/images/concepts/display-conceptual-art-print-india.svg',
     conceptualVisuals: [
       {
         title: 'Bay of Bengal Trade Winds Cartogram',
@@ -64,7 +64,7 @@ export const CONCEPTUAL_EXPRESSIONS: Record<ExpressionCategory, ConceptualExpres
         form: 'Archival Map Print (18 x 24 in)',
         materials: 'Heavyweight archival bamboo paper, charcoal ink',
         details: 'Traces seasonal monsoon winds and ancient waypoints between Nagapattinam and Kedah.',
-        imageUrl: '/images/concepts/display-bay-of-bengal-trade-winds-cartogram.jpg'
+        imageUrl: '/images/concepts/display-bay-of-bengal-trade-winds-cartogram.svg'
       },
       {
         title: 'Ashokan Rock Edict XIII Rubbing',
@@ -72,7 +72,7 @@ export const CONCEPTUAL_EXPRESSIONS: Record<ExpressionCategory, ConceptualExpres
         form: 'Relief Print (12 x 36 in)',
         materials: 'Japanese Kozo paper with archival charcoal pigments',
         details: 'Direct tactile relief facsimile of Brahmi epigraphy renouncing war in favor of moral fellowship.',
-        imageUrl: '/images/concepts/display-ashokan-rock-edict-xiii-rubbing.jpg'
+        imageUrl: '/images/concepts/display-ashokan-rock-edict-xiii-rubbing.svg'
       }
     ]
   },
@@ -84,7 +84,7 @@ export const CONCEPTUAL_EXPRESSIONS: Record<ExpressionCategory, ConceptualExpres
     description: 'Strictly non-weapon commemorations of Indian civilizational moments. Hand-cast medals, lost-wax miniature seals, and numismatic tributes created in collaboration with traditional craft clusters.',
     mediums: ['Lost-Wax Bell Metal', 'Brushed Naval Brass', 'Terracotta Patina', 'Solid Pewter'],
     examples: ['Numismatic Medallions', 'Ancient Guild Seals', 'Vessel Prow Replicas', 'Dynastic Seal Castings'],
-    sampleImage: '/images/concepts/collect-conceptual-medallion-india.jpg',
+    sampleImage: '/images/concepts/collect-conceptual-medallion-india.svg',
     conceptualVisuals: [
       {
         title: 'Samudragupta Lyrist Tribute Coin',
@@ -92,7 +92,7 @@ export const CONCEPTUAL_EXPRESSIONS: Record<ExpressionCategory, ConceptualExpres
         form: 'Cast Commemorative Medallion (45mm)',
         materials: 'Solid brass with brushed 22k gold electroplate',
         details: 'Features Samudragupta playing the classical veena on an antique throne, numbered edition.',
-        imageUrl: '/images/concepts/collect-samudragupta-lyrist-tribute-coin.jpg'
+        imageUrl: '/images/concepts/collect-samudragupta-lyrist-tribute-coin.svg'
       },
       {
         title: 'Uttaramerur Palm Ballot Commemorative Seal',
@@ -100,7 +100,7 @@ export const CONCEPTUAL_EXPRESSIONS: Record<ExpressionCategory, ConceptualExpres
         form: 'Desk Seal Token',
         materials: 'Lost-wax cast bronze with verdigris patina',
         details: 'Miniature casting of a palm leaf ballot marked with historical Tamil-Brahmi script.',
-        imageUrl: '/images/concepts/collect-uttaramerur-palm-ballot-commemorative-seal.jpg'
+        imageUrl: '/images/concepts/collect-uttaramerur-palm-ballot-commemorative-seal.svg'
       }
     ]
   },
@@ -112,7 +112,7 @@ export const CONCEPTUAL_EXPRESSIONS: Record<ExpressionCategory, ConceptualExpres
     description: 'Rich, non-encyclopedic printed literature that invites slow reading. Curated boxed cards, fold-out accordion chronologies, and bilingual source extracts that make complex historiography accessible.',
     mediums: ['Letterpress Printing', 'Linen Slipcases', 'FSC-Certified Archival Paper', 'Concertina Binding'],
     examples: ['Ashta Pradhan Strategy Box', 'Aryabhatiya Math Folio', 'Buranji Chronicle Facsimiles', 'Dynasty Timelines'],
-    sampleImage: '/images/concepts/explore-conceptual-folio-india.jpg',
+    sampleImage: '/images/concepts/explore-conceptual-folio-india.svg',
     conceptualVisuals: [
       {
         title: 'Ashta Pradhan: The Architecture of Statecraft',
@@ -120,7 +120,7 @@ export const CONCEPTUAL_EXPRESSIONS: Record<ExpressionCategory, ConceptualExpres
         form: '8-Card Letterpress Folio Box',
         materials: 'Greyboard slipcase wrapped in book cloth, blind-debossed title',
         details: 'Each card breaks down one ministerial portfolio with translated 17th-century edicts.',
-        imageUrl: '/images/concepts/explore-ashta-pradhan-statecraft-folio.jpg'
+        imageUrl: '/images/concepts/explore-ashta-pradhan-statecraft-folio.svg'
       },
       {
         title: 'Aryabhatiya Planetary Calculation Concertina',
@@ -128,7 +128,7 @@ export const CONCEPTUAL_EXPRESSIONS: Record<ExpressionCategory, ConceptualExpres
         form: 'Fold-out Accordion Codex (6 panels)',
         materials: 'Heavy cream cotton paper with bronze metallic ink printing',
         details: 'Presents Aryabhata’s Sanskrit mathematical verses with modern trigonometric diagrams.',
-        imageUrl: '/images/concepts/explore-aryabhatiya-planetary-concertina.jpg'
+        imageUrl: '/images/concepts/explore-aryabhatiya-planetary-concertina.svg'
       }
     ]
   },
@@ -140,7 +140,7 @@ export const CONCEPTUAL_EXPRESSIONS: Record<ExpressionCategory, ConceptualExpres
     description: 'Tactile physical anchors for modern workspaces. Heavy granite paperweights cut with temple geometry, unglazed terracotta incense holders, machined brass fort bastions, and fountain pen notebooks.',
     mediums: ['Black & Grey Granite', 'Solid Brass', 'Terracotta', 'Handmade Botanical Paper'],
     examples: ['Brihadisvara Vimana Paperweight', 'Sindhudurg Naval Bastion Weight', 'Buranji Sanchi-Bark Journal', 'Ashokan Sandstone Pen Rest'],
-    sampleImage: '/images/concepts/desk-conceptual-object-india.jpg',
+    sampleImage: '/images/concepts/desk-conceptual-object-india.svg',
     conceptualVisuals: [
       {
         title: 'Thanjavur Octagonal Granite Capstone',
@@ -148,7 +148,7 @@ export const CONCEPTUAL_EXPRESSIONS: Record<ExpressionCategory, ConceptualExpres
         form: 'Sculptural Desk Weight',
         materials: 'Solid polished black Indian granite',
         details: 'Faceted paperweight echoing the geometric profile of the 80-tonne Brihadisvara cupola.',
-        imageUrl: '/images/concepts/desk-thanjavur-octagonal-granite-capstone.jpg'
+        imageUrl: '/images/concepts/desk-thanjavur-octagonal-granite-capstone.svg'
       },
       {
         title: 'Buranji Sanchi-Bark Notebook',
@@ -156,7 +156,7 @@ export const CONCEPTUAL_EXPRESSIONS: Record<ExpressionCategory, ConceptualExpres
         form: 'Hardbound Desk Journal',
         materials: 'Indigo-washed cloth cover, handmade tree-free botanical paper',
         details: 'Lays flat 180 degrees for fountain pen journaling, with ribbon bookmark and ribbon closure.',
-        imageUrl: '/images/concepts/desk-buranji-sanchi-bark-notebook.jpg'
+        imageUrl: '/images/concepts/desk-buranji-sanchi-bark-notebook.svg'
       }
     ]
   }
