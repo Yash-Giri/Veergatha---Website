@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import ConsentBanner from "@/components/common/ConsentBanner";
+import { Analytics } from "@vercel/analytics/next";
 
 const cinzel = Cinzel({
   subsets: ["latin"],
@@ -85,6 +86,9 @@ export default function RootLayout({
 
         {/* DPDP Compliant Consent Banner */}
         <ConsentBanner />
+
+        {/* Vercel Web Analytics */}
+        <Analytics />
       </body>
     </html>
   );
