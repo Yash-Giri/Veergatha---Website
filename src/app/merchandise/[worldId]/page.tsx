@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { ArrowLeft, Sparkles, Tag, Circle, Zap, ShoppingBag, Edit, Heart, Coffee, BookOpen, Frame, Hat, Bag } from 'lucide-react';
+import { ArrowLeft, Sparkles, Tag, Circle, Zap, ShoppingBag, Edit, Heart, Coffee, BookOpen, Frame, Shirt } from 'lucide-react';
 import { HERITAGE_WORLDS } from '@/data/heritageWorlds';
 import { logEvent } from '@/lib/analytics';
 import { WorldId } from '@/types';
@@ -89,7 +89,7 @@ function generateWearConcepts(world: any) {
     let customizedDescription = concept.description;
     let customizedTitle = concept.title;
     let customizedTagline = concept.tagline;
-    let customizedMedium = concept.conceptualMedium;
+    const customizedMedium = concept.conceptualMedium;
     let imageUrl = '';
 
     // Replace placeholders with world-specific content
@@ -448,7 +448,7 @@ export default function WorldMerchandisePage() {
                         alt=""
                         className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                         onError={(e) => {
-                          e.target.onerror = null;
+                          e.currentTarget.onerror = null;
                           // Create a deliberate placeholder with heritage world styling
                           const placeholderDiv = document.createElement('div');
                           placeholderDiv.style.position = 'absolute';
@@ -471,8 +471,8 @@ export default function WorldMerchandisePage() {
                           placeholderDiv.appendChild(heading);
                           placeholderDiv.appendChild(subheading);
 
-                          e.target.parentNode?.insertBefore(placeholderDiv, e.target.nextSibling);
-                          e.target.style.display = 'none';
+                          const img = e.currentTarget as HTMLImageElement; img.parentNode?.insertBefore(placeholderDiv, img.nextSibling);
+                          img.style.display = 'none';
                         }}
                         aria-hidden="true"
                       />

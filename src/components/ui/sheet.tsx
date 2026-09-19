@@ -1,5 +1,5 @@
 import * as React from "react"
-import * as SheetPrimitive from "@radix-ui/react-sheet"
+import * as SheetPrimitive from "@radix-ui/react-dialog"
 
 import { cva, type VariantProps } from "class-variance-authority"
 import { clsx } from "clsx"
@@ -73,13 +73,13 @@ export interface SheetTriggerProps
 }
 
 export interface SheetContentProps
-  extends React.DivHTMLAttributes<HTMLDivElement>,
+  extends React.HTMLAttributes<HTMLDivElement>,
     VariantProps<typeof sheetContentVariants> {
   className?: string
 }
 
 export interface SheetOverlayProps
-  extends React.DivHTMLAttributes<HTMLDivElement>,
+  extends React.HTMLAttributes<HTMLDivElement>,
     VariantProps<typeof sheetOverlayVariants> {
   className?: string
 }
@@ -92,7 +92,7 @@ export const SheetTrigger = React.forwardRef<
   const Comp = asChild ? "span" : "button"
   return (
     <SheetPrimitive.Trigger
-      as={Comp}
+      asChild={asChild}
       className={clsx(sheetTriggerVariants({ variant, size, className }))}
       ref={ref}
       {...props}

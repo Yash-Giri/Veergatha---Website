@@ -54,7 +54,7 @@ function generateStoryWearConcepts(world: any) {
     let customizedDescription = concept.description;
     let customizedTitle = concept.title;
     let customizedTagline = concept.tagline;
-    let customizedMedium = concept.conceptualMedium;
+    const customizedMedium = concept.conceptualMedium;
     let imageUrl = '';
 
     // Replace placeholders with world-specific content
@@ -222,12 +222,14 @@ function generateStoryWearConcepts(world: any) {
 
     return {
       ...concept,
+      worldId: world.id,
       id: `${world.id}_${concept.id.split('_').slice(1).join('_')}`,
       title: customizedTitle,
       description: customizedDescription,
       tagline: customizedTagline,
       conceptualMedium: customizedMedium,
       imageUrl: imageUrl,
+      colorHex: world.colorHex || '#8A6A45',
     };
   });
 }

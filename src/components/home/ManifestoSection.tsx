@@ -39,7 +39,7 @@ export default function ManifestoSection() {
           {/* Deliberate placeholder with Gupta heritage styling */}
           <div className="absolute inset-0 flex items-center justify-center text-center p-4">
             <div className="space-y-4">
-              <h2 className="font-serif text-3xl font-bold text-BFA047">/* gupta accentHex */
+              <h2 className="font-serif text-3xl font-bold text-BFA047">
                 GUPTA HERITAGE
               </h2>
               <p className="text-sm text-ink-600 font-sans mt-4 max-w-xl">

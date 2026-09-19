@@ -94,7 +94,10 @@ export type EventName =
   | 'theme_preference'
   | 'expression_preference'
   | 'early_access'
-  | 'return_visit';
+  | 'return_visit'
+  | 'merchandise_view'
+  | 'merchandise_index_return'
+  | 'merchandise_world_explore';
 
 export interface StoredAnalyticsEvent extends BaseEvent {
   id: string;

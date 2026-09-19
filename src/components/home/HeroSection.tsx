@@ -25,7 +25,7 @@ export default function HeroSection() {
       {/* Background Visual - To be replaced with actual heritage visual */}
       {imageLoaded ? (
         <div className="absolute inset-0 bg-cover bg-center opacity-75"
-             style={{ backgroundImage: `url('/images/heritage/chola/hero-indian-ocean-routes-temple-geometry.jpg') }}}
+             style={{ backgroundImage: `url('/images/heritage/chola/hero-indian-ocean-routes-temple-geometry.jpg')` }}
              aria-hidden="true"
         />
       ) : (

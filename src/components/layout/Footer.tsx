@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { Compass, BookOpen, ShieldCheck, FileText, BarChart3, ArrowUpRight } from 'lucide-react';
+import { Compass, BookOpen, ShieldCheck, FileText, ShoppingBag } from 'lucide-react';
 import EarlyAccessModal from '@/components/common/EarlyAccessModal';
 
 export default function Footer() {
@@ -65,7 +65,8 @@ export default function Footer() {
                     <span>Merchandise Concepts</span>
                   </Link>
                 </li>
-            </ul>
+              </ul>
+            </div>
 
             {/* Integrity & Legal Column */}
             <div className="md:col-span-3 lg:col-span-4 space-y-4">

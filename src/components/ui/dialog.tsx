@@ -74,13 +74,13 @@ export interface DialogTriggerProps
 }
 
 export interface DialogContentProps
-  extends React.DivHTMLAttributes<HTMLDivElement>,
+  extends React.HTMLAttributes<HTMLDivElement>,
     VariantProps<typeof dialogContentVariants> {
   className?: string
 }
 
 export interface DialogOverlayProps
-  extends React.DivHTMLAttributes<HTMLDivElement>,
+  extends React.HTMLAttributes<HTMLDivElement>,
     VariantProps<typeof dialogOverlayVariants> {
   className?: string
 }
@@ -90,16 +90,13 @@ export const DialogTrigger = React.forwardRef<
   HTMLButtonElement,
   DialogTriggerProps
 >(({ className, variant, size, asChild = false, ...props }, ref) => {
-  const Comp = asChild ? "span" : "button"
   return (
     <DialogPrimitive.Trigger
-      as={Comp}
+      asChild={asChild}
       className={clsx(dialogTriggerVariants({ variant, size, className }))}
       ref={ref}
       {...props}
-    >
-      {asChild ? props.children : null}
-    </DialogPrimitive.Trigger>
+    />
   )
 })
 DialogTrigger.displayName = DialogPrimitive.Trigger.displayName

@@ -39,7 +39,7 @@ export default function ConceptCards({ concepts, worldName }: ConceptCardsProps)
                 alt=""
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                 onError={(e) => {
-                  e.target.onerror = null;
+                  e.currentTarget.onerror = null;
                   // Create a deliberate placeholder with heritage world styling
                   const placeholderDiv = document.createElement('div');
                   placeholderDiv.style.position = 'absolute';
@@ -62,8 +62,8 @@ export default function ConceptCards({ concepts, worldName }: ConceptCardsProps)
                   placeholderDiv.appendChild(heading);
                   placeholderDiv.appendChild(subheading);
 
-                  e.target.parentNode?.insertBefore(placeholderDiv, e.target.nextSibling);
-                  e.target.style.display = 'none';
+                  e.currentTarget.parentNode?.insertBefore(placeholderDiv, e.currentTarget.nextSibling);
+                  e.currentTarget.style.display = 'none';
                 }}
                 aria-hidden="true"
               />
